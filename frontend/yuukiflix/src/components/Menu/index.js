@@ -1,17 +1,27 @@
+//import modules
 import React            from 'react';
-import logoyuukiflix    from '../../assets/yuukiflixlogo2.png';
-//import ButtonLink       from './components/ButtonLink';
-import                  './Menu.css';
-import Button           from '../Button';
+import { Link }         from 'react-router-dom';
 
+//import assets
+import logoyuukiflix    from '../../assets/yuukiflixlogo2.png';
+
+//import style
+import                  './Menu.css';
+
+//import components
+import Button           from '../Button';
+//import ButtonLink       from './components/ButtonLink';
+
+
+//-------------------------------------------------
 export default function Menu () {
     return(
         <nav className="Menu">
-            <a href="/">                
+            <Link to="/">                
                 <img className="Logo" src={logoyuukiflix} alt="YuukiFlix Logo"/>
-            </a>
+            </Link>
 
-            <Button as="a" className="ButtonLink" href="/">
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Novo Vídeo
             </Button>
         </nav>

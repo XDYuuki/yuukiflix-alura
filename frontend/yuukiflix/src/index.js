@@ -1,28 +1,18 @@
-import React from 'react';
+//import modules
+import React    from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import {
   BrowserRouter, Switch, Route
 } from 'react-router-dom';
 
+//import styles
+import './index.css';
+
 //Route Pages
-import Home from './pages/home';
+import Home               from './pages/home';
+import CadastroVideo      from './pages/cadastro/video';
+import CadastroCategoria  from './pages/cadastro/Categoria';
 
-function CadastroVideo (){
-  return(
-    <div>
-      <h1>Cadastro de Vídeo</h1>
-    </div>
-  )
-}
-
-function CadastroCategoria (){
-  return(
-    <div>
-      <h1>Cadastro de Categoria</h1>
-    </div>
-  )
-}
 
 const Pagina404 = ()=> (<div><h1>Página404</h1></div>);
 
