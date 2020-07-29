@@ -1,11 +1,11 @@
 import React          from 'react';
-import Menu           from './components/Menu';
-import BannerMain     from './components/BannerMain';
-import Carousel       from './components/Carousel';
-import Footer         from './components/Footer';
-import dadosIniciais  from './data/dados_iniciais.json';
+import Menu           from '../../components/Menu';
+import BannerMain     from '../../components/BannerMain';
+import Carousel       from '../../components/Carousel';
+import Footer         from '../../components/Footer';
+import dadosIniciais  from '../../data/dados_iniciais.json';
 
-function App() {
+function Home() {
   return (
     <div style={{background: "#141414"}}>
       <Menu />
@@ -13,7 +13,7 @@ function App() {
 <BannerMain
   videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
   url={dadosIniciais.categorias[0].videos[0].url}
-  videoDescription={"Guia inicial de estrutura de dados e lógica de programação oferecido pelo Leonardo Leitão da Cod3r Cursos"}
+  videoDescription={"Bate papo com as personalidades do cenário sobre os últimos jogos"}
 />
 
 <Carousel
@@ -46,4 +46,4 @@ category={dadosIniciais.categorias[5]}
   );
 }
 
-export default App;
+export default Home;

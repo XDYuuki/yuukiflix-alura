@@ -1,53 +1,53 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "E-Sport",
+      "link": "https://www.youtube.com/watch?v=B4D6Kkrk6CQ",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Notícias sobre espórte eletrônico",
+        "url": "https://www.youtube.com/watch?v=B4D6Kkrk6CQ"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Depois do Nexus: 27/07/2020",
+          "url": "https://www.youtube.com/watch?v=B4D6Kkrk6CQ"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "DDN + Circuito Desafiante 2020: 2ª Etapa - Fase Regular - Md1 | Semana 8 - Rodada 15",
+          "url": "https://www.youtube.com/watch?v=yPqPq-nYoZI"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "CBLoL 2020: 2ª Etapa - Fase de Pontos - Md1 | Semana 8 - Rodada 16",
+          "url": "https://www.youtube.com/watch?v=qbMTpwgpZ0E"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "5 LINE-UPS HISTÓRICAS DO LOL MUNDIAL",
+          "url": "https://www.youtube.com/watch?v=nSqSDxK4Scg"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "SC2 - Trap vs. Serral - DH SC2 Masters - Summer 2020 - Grand Final - Season Finals",
+          "url": "https://www.youtube.com/watch?v=csDn0y3PcZw"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "CS:GO - G2 Esports vs. Natus Vincere [Dust2] Map 2 - Grand Finals - IEM Katowice 2020",
+          "url": "https://www.youtube.com/watch?v=JjKYJw4ZyVc"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "SHINI COMENTA PRIORIDADES DA INTZ NO CBLOL E ENTROSAMENTO COM REDBERT",
+          "url": "https://www.youtube.com/watch?v=o47Q2-A_a7o"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "The Unsung Heroes of Overwatch | Know Your Role — Tank",
+          "url": "https://www.youtube.com/watch?v=fL95mQS_fZk"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "League of Legends",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "Criadores de conteúdo de League of Legends",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
@@ -74,10 +74,10 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Gameplays",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
+        "text": "Gameplays dos mais diversos jogos",
         "url": "https://www.alura.com.br/formacao-data-science"
       },
       "videos": [
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Cinematics Games",
       "cor": "orange",
       "videos": [
         {
@@ -122,10 +122,10 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Novidades",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
+        "text": "Novidades no mundo dos Games",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
@@ -152,10 +152,10 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Desenvolvimento de jogos",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
+        "text": "Criação e ferramentas de desenvimento de jogos",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       },
       "videos": [
