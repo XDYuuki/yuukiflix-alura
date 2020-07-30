@@ -1,21 +1,30 @@
-import React/*, { useState }*/ from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 
+
 function CadastroCategoria() {
 
-  //const [value, setValue] = useState('');
+  const [categoriaList, setCategoriaList] = useState(['item inicial'])
+  const [categoria, setCategoria] = useState('');
+  //console.log('Valor Digitado: ', value);
 
   return (
     <PageDefault>
       <h1>Cadastro de Categoria</h1>
+      <form onSubmit = {function handleChangeFunction  (infoEvent){
 
-      <form>
+        infoEvent.preventDefault();
+        setCategoriaList([...categoriaList, categoria]);
+      }}>
 
         <label>          
           <input
             type="text"
-            //value={value}
+            onChange={function handleChangeFunction  (eventValue){  
+
+              setCategoria(eventValue.target.value);                 
+            }}
           />
         </label>
 
@@ -24,6 +33,15 @@ function CadastroCategoria() {
         </button>
       </form>
 
+      <ul>
+          {categoriaList.map((item, index) => {
+            return(
+              <li key={item+index}>
+                {item}
+              </li>
+            );
+          })}
+      </ul>
 
       <Link to="/">
         Ir para home
